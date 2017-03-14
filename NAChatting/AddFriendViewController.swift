@@ -21,10 +21,22 @@ class AddFriendViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
+    @IBOutlet private weak var NameLabel: UILabel!
     @IBOutlet private weak var emailTextField: UITextField!
 
     @IBAction private func add(_ sender: UIButton) {
-        FriendBase.addFriend(email: emailTextField.text!)
+        let error = FriendBase.addFriend(emailTextField.text!)
+        if error != nil
+        {
+            NameLabel.text = error
+        }
+        else
+        {
+            NameLabel.text = "Add friend successful!"
+        }
     }
     
+    @IBAction private func back() {
+        self.performSegue(withIdentifier: "backToFriendList", sender: nil)
+    }
 }

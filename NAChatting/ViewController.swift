@@ -28,6 +28,7 @@ class ViewController: UIViewController {
             else
             {
                 self.performSegue(withIdentifier: "toMain", sender: nil)
+                FriendList.loadFriends()
             }
             self.waiting.stopAnimating()
         }
@@ -43,6 +44,7 @@ class ViewController: UIViewController {
         { (error) in
             if error == nil
             {
+                FriendList.loadFriends()
                 self.performSegue(withIdentifier: "toMain", sender: nil)
             }
             else
