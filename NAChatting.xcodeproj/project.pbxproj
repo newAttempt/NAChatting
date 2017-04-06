@@ -20,6 +20,7 @@
 		3FEC46E31E73DE3E00B10342 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FEC46E11E73DE3E00B10342 /* LaunchScreen.storyboard */; };
 		3FEC46EB1E73E14500B10342 /* AccountSetting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FEC46EA1E73E14500B10342 /* AccountSetting.swift */; };
 		66B6189F2C0A2BEABD49D78C /* Pods_NAChatting.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEB13847A2FB9D4E2210B080 /* Pods_NAChatting.framework */; };
+		B29638581E95ED3F008141A5 /* yu.swift in Sources */ = {isa = PBXBuildFile; fileRef = B29638571E95ED3F008141A5 /* yu.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +40,7 @@
 		3FEC46E41E73DE3E00B10342 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3FEC46EA1E73E14500B10342 /* AccountSetting.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccountSetting.swift; sourceTree = "<group>"; };
 		4C5045BE2D1FC12BFAD25C2F /* Pods-NAChatting.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NAChatting.release.xcconfig"; path = "Pods/Target Support Files/Pods-NAChatting/Pods-NAChatting.release.xcconfig"; sourceTree = "<group>"; };
+		B29638571E95ED3F008141A5 /* yu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = yu.swift; sourceTree = "<group>"; };
 		BEB13847A2FB9D4E2210B080 /* Pods_NAChatting.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NAChatting.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -131,6 +133,7 @@
 		3FEC46D71E73DE3E00B10342 /* NAChatting */ = {
 			isa = PBXGroup;
 			children = (
+				B29638571E95ED3F008141A5 /* yu.swift */,
 				3F7E0AB41E73FB1B00C4C6F6 /* FirendManagement */,
 				3FC1A8C71E73E533002CFD88 /* SupportingFiles */,
 				3FC1A8C61E73E521002CFD88 /* AccountManagement */,
@@ -278,6 +281,7 @@
 				3F7E0AB81E74002500C4C6F6 /* AddFriendViewController.swift in Sources */,
 				3FEC46EB1E73E14500B10342 /* AccountSetting.swift in Sources */,
 				3FC1A8CF1E73F22E002CFD88 /* AccountInfo.swift in Sources */,
+				B29638581E95ED3F008141A5 /* yu.swift in Sources */,
 				3F7E0ABA1E7404C200C4C6F6 /* FriendListViewController.swift in Sources */,
 				3FC1A8CD1E73E590002CFD88 /* SignUpViewController.swift in Sources */,
 				3F7E0AB61E73FB4500C4C6F6 /* FriendBase.swift in Sources */,
